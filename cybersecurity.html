@@ -4,7 +4,7 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Cybersecurity Tools</title>
-  <link rel="stylesheet" href="assets/css/style.css"/>
+  <link rel="stylesheet" href="assets/style.css"/>
 </head>
 <body>
   
@@ -35,45 +35,109 @@
       </div>
     </div>
   </header>
+
   <main class="container">
     
 <section>
-  <h2 style="margin-top:0">Cybersecurity Tools (Antivirus & Anti‑Spyware)</h2>
-  <p>Use the tabs to separate categories; fill in your own content later.</p>
+  <h2 style="margin-top:0">Cybersecurity Tools (Antivirus & Anti-Spyware)</h2>
+  <p>These tools help protect computers from malicious software, data theft, and online threats.</p>
+
   <section data-tabs>
     <div class="tabs" role="tablist" aria-label="Security Tabs">
       <button class="tab-btn" role="tab" aria-selected="true" aria-controls="tab-av">Antivirus</button>
-      <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-as">Anti‑Spyware</button>
+      <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-as">Anti-Spyware</button>
     </div>
+
+    <!-- Antivirus -->
     <div id="tab-av" role="tabpanel" class="tab-panel active">
       <div class="grid grid-3">
-        <div class="card"><h3>Overview</h3><p>(placeholder)</p></div>
-        <div class="card"><h3>Features</h3><p>(placeholder)</p></div>
-        <div class="card"><h3>Tips</h3><p>(placeholder)</p></div>
+        
+        <div class="card">
+          <h3>Overview</h3>
+          <p>
+            Antivirus software protects your computer by detecting, blocking, and removing viruses, worms,
+            trojans, ransomware, and other harmful programs before they cause damage.
+          </p>
+        </div>
+        
+        <div class="card">
+          <h3>Features</h3>
+          <ul>
+            <li>Real-time scanning of files and programs</li>
+            <li>Automatic virus database updates</li>
+            <li>Threat quarantine and removal</li>
+            <li>Web protection and safe browsing</li>
+            <li>Email attachment scanning</li>
+          </ul>
+        </div>
+        
+        <div class="card">
+          <h3>Tips</h3>
+          <ul>
+            <li>Keep the antivirus updated daily.</li>
+            <li>Scan USB drives before opening files.</li>
+            <li>Avoid downloading software from unknown websites.</li>
+            <li>Run a full scan at least once a week.</li>
+          </ul>
+        </div>
+
       </div>
     </div>
+
+    <!-- Anti-Spyware -->
     <div id="tab-as" role="tabpanel" class="tab-panel">
       <div class="grid grid-3">
-        <div class="card"><h3>Overview</h3><p>(placeholder)</p></div>
-        <div class="card"><h3>Features</h3><p>(placeholder)</p></div>
-        <div class="card"><h3>Tips</h3><p>(placeholder)</p></div>
+
+        <div class="card">
+          <h3>Overview</h3>
+          <p>
+            Anti-spyware tools protect against software that secretly monitors your activity, steals passwords,
+            records keystrokes, or collects personal information without your permission.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Features</h3>
+          <ul>
+            <li>Detection of tracking cookies and hidden spyware</li>
+            <li>Blocking keyloggers and screen recorders</li>
+            <li>Protection against data theft</li>
+            <li>Real-time monitoring of suspicious apps</li>
+            <li>Secure removal of spyware components</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Tips</h3>
+          <ul>
+            <li>Do not click unknown pop-ups or ads.</li>
+            <li>Only install apps from trusted sources.</li>
+            <li>Avoid using cracked software—it often contains spyware.</li>
+            <li>Regularly check which apps have permission to access your data.</li>
+          </ul>
+        </div>
+
       </div>
     </div>
   </section>
 </section>
 
+<!-- Quiz -->
 <section style="margin-top:24px" class="quiz">
-  <h4>Quick Check (Placeholder)</h4>
-  <p>Replace with your own security‑tool questions.</p>
+  <h4>Quick Check</h4>
+  <p>Which tool is best for detecting programs that secretly collect your information?</p>
+
   <div class="options">
-    <label><input type="radio" name="q5"> Option A</label>
-    <label><input type="radio" name="q5"> Option B</label>
-    <label><input type="radio" name="q5"> Option C</label>
+    <label><input type="radio" name="q5" value="A"> A. Antivirus</label>
+    <label><input type="radio" name="q5" value="B"> B. Anti-spyware</label>
+    <label><input type="radio" name="q5" value="C"> C. Disk Cleaner</label>
   </div>
+
   <div class="actions">
     <button class="btn btn-primary submit">Submit</button>
     <button class="btn reset">Reset</button>
   </div>
+
   <div class="result" aria-live="polite"></div>
 </section>
 
@@ -83,8 +147,8 @@
     <div class="container">
       <div class="grid grid-3">
         <div>
-          <h3 style="margin-top:0">Tech Info (Layout‑Only)</h3>
-          <p>Replace all placeholder text with your own content. This template intentionally contains no technical facts.</p>
+          <h3 style="margin-top:0">Tech Info (Layout-Only)</h3>
+          <p>This page now includes real cybersecurity content suitable for learning.</p>
         </div>
         <div>
           <h4>Quick Links</h4>
@@ -95,7 +159,7 @@
         </div>
         <div>
           <h4>Theme</h4>
-          <p>Blue palette with yellow and orange accents. Accessible contrasts and clean UI.</p>
+          <p>Blue palette with yellow and orange accents. Designed for clarity and accessibility.</p>
         </div>
       </div>
       <p style="margin-top:16px;font-size:12px;color:#cbd5e1">© 2025 Your Organization — UI template by you.</p>
